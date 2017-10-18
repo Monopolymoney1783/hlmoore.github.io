@@ -11,19 +11,19 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://cdn.appvalley.vip/ipa/kim.cracksby.yalu102.ipa</string>
+                    <string>https://cdn.rawgit.com/hlmoore/hlmoore.github.io/master/Phoenix4.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>kim.cracksby.yalu102</string>
+                <string>wall.supplies.phoenix</string>
                 <key>bundle-version</key>
                 <string>1.0</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <string>Yalu102 @OLO2016</string>
+                <string>Phoenix JB</string>
             </dict>
         </dict>
     </array>
