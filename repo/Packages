@@ -1,14 +1,13 @@
-Package: stuff
+Package: mterminal
 Version: idk
 Architecture: iphoneos-arm
 Maintainer: iiFireBird henry@ivy.io
-Depends: com.anemonetheming.anemone, libactivator, com.eswik.harbor
 Filename: mterminal.deb
 Size: 5.0
 MD5sum: 89a3bb9791c2deee6f530773089ee43d
 SHA1: 86A7FEEA0D4C0C21BF169AC7C5E25CE1F8079724
 SHA256: A0138646DAA42478B726EC164A261A9C31B8AC29F91E5CF500F194ECE9039924
 Section: stuff
-Description: meep
-Author: Yourname <email (put in <>)>
+Description: A Stripped Down MobileTerminal Fork
+Author: iiFireBird henry@ivy.io
 Name: stuff that i have
