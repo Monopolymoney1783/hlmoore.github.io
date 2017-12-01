@@ -22,6 +22,6 @@ MD5sum: F5EAC285D5C19B16FCB40A06228A9759
 SHA1: 966E31EFA6262339A1AD93DB0A5771854ABC4F60
 SHA256: 68833A247038A3AC7B764CA50991E51A6C075F72C6EF7486C314DF57AE1DFA3B
 Section: stuff
-Description: A Stripped Down MobileTerminal Fork
+Description: Switchboard (not the proto software btw) Created By Apple Patched By iiFireBird
 Author: iiFireBird henry@ivy.io
-Name: mterminal
+Name: Switchboard
