@@ -2,7 +2,7 @@ Package: mterminal
 Version: idk
 Architecture: iphoneos-arm
 Maintainer: iiFireBird henry@ivy.io
-Filename: /debs/mterminal.deb
+Filename: ./debs/mterminal.deb
 Size: 107000
 MD5sum: CA89EF2A021EB532AB64A3F584D4C9D4
 SHA1: 86A7FEEA0D4C0C21BF169AC7C5E25CE1F8079724
@@ -16,7 +16,7 @@ Package: Switchboard
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: iiFireBird henry@ivy.io
-Filename: /debs/switchboard.deb
+Filename: ./debs/switchboard.deb
 Size: 16.2MB
 MD5sum: f5eac285d5c19b16fcb40a06228a9759
 SHA1: 966e31efa6262339a1ad93db0a5771854abc4f60
