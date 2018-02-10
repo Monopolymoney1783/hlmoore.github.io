@@ -1,8 +1,6 @@
-Origin: iiFireBird's Repo
-Label: iiFireBird's Repo
-Suite: stable
-Version: 1.0
-Codename: ios
+Origin: Nyan Satan's Repository
+Label: Nyan Satan
+Version: 17
 Architectures: iphoneos-arm
 Components: main
-Description: iiFireBird's Repo
+Description: Repository with Way Out and dualbootstuff. Use these tools on your own risk

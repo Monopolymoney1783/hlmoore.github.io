@@ -1,35 +1,32 @@
-Package: com.iifirebird.usuableswitchboard
-Version: 1.0old
+Package: com.nyansatan.WayOut
+Version: 1.6.1-1G23
 Architecture: iphoneos-arm
-Filename: ./debs/switchboard.deb
-Size: 16725838
-MD5sum: f5eac285d5c19b16fcb40a06228a9759
-SHA1: 966e31efa6262339a1ad93db0a5771854abc4f60
-SHA256: 68833a247038a3ac7b764ca50991e51a6c075f72c6ef7486c314df57ae1dfa3b
-Section: Section Name Here
-Description: A Usable Switchboard App (not prototype software) Created By Apple Patched By iiFireBird
-Author: iiFireBird
-Name: SwitchBoard
+Maintainer: Nyan Satan
+Installed-Size: 8092
+Depends: firmware (>= 5.0)
+Filename: ./deb_files/WayOut.deb
+Size: 7883554
+MD5sum: ec88574ca294373f708e5b1e51225d0e
+SHA1: 61ea750c7e7e50e93c639c815751b92a012ed5e3
+SHA256: 9fdbde88f01c54cb9cc00f26af6a8cc186ef8211f3ef6d66d13e3e18cfd79930
+Section: System
+Description: Way Out - GUI for kloader in the spirit of classical Setup.app. Developed by @nyan_satan. Thanks to: @winocm, @xerub, @JonathanSeals, @axi0mX
+Author: @nyan_satan
+Icon: file:///Applications/WayOut.app/icon7.png
+Name: Way Out
 
-Package: com.officialscheduler.mterminal
-Version: 1.4-5
+Package: com.nyansatan.dualbootstuff
+Version: 1.0.5
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 325
-Depends: firmware (>= 4.0), system-cmds
-Filename: ./debs/mterminal.deb
-Size: 107204
-MD5sum: ca89ef2a021eb532ab64a3f584d4c9d4
-SHA1: 86a7feea0d4c0c21bf169ac7c5e25ce1f8079724
-SHA256: a0138646daa42478b726ec164a261a9c31b8ac29f91e5cf500f194ece9039924
-Section: Utilities
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
-Description: A MobileTerminal fork
-Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
-Author: lordscotland <admin@officialscheduler.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
-Dev: officialscheduler
-Icon: file:///Applications/MTerminal.app/Icon.png
-Name: MTerminal
-Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: Nyan Satan
+Installed-Size: 2694
+Filename: ./deb_files/dualbootstuff.deb
+Size: 1313004
+MD5sum: d2d9540b65244fa4cd9c411391028e58
+SHA1: 630f2477f29507688b688d0ea956bc52378432d3
+SHA256: 639e9e8fbaa82fe1fd80293e7e351c0d56f4eb7d17eb0606d22ef64a34f4eba7
+Section: System
+Description: Package of tools for iOS dualbooting. It contains hfs_resize, gptfdisk, ASR (from iOS 4.0, 5.0.1, 6.1.3), kloader (including @axi0mX's fork), multi_kloader (including modified one for A5), ibsspatch, attach, detach, ttbthingy, NoMoreSIGABRT, fixkeybag, TwistedMind2 and some /etc files
+Author: @danzatt, @winocm, @xerub, @JonathanSeals, @axi0mX, @Apple, @comex, Roderick W. Smith, people behind iphone-dataprotection project, @nyan_satan
+Name: dualbootstuff
 
