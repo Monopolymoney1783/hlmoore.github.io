@@ -1,1 +1,1 @@
-uname -a
+uname -a && echo YOUVE BEEN HAX3D
