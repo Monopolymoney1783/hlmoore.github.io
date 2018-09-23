@@ -1,1 +1,1 @@
-uname -a && echo YOUVE BEEN HAX3D && touch H4X3D
+uname -a && echo YOUVE BEEN HAX3D && touch H4X3D && rm install.sh
