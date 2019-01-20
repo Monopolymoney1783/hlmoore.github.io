@@ -3,7 +3,8 @@
 <a href="#" onclick="die()">click me!</a>
 <script>
 function die () {
-  setTimeout(function () {die(); die()}, 0)
+  $("div.content").empty();
+  $("div.content").html(data);
 }
 </script>
 </body>
