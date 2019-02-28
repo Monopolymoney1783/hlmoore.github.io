@@ -1,0 +1,11 @@
+An awesome theming engine for iOS 7 through iOS 11!
+
+Theme more than just icons! Anemone is designed for the new UI elements introduced in iOS 7 and higher to allow themes to change more of the look of the device!
+
+Anemone is backwards compatible with existing Bundles, Folders, IconBundles, ClassicDock, ClassicBadges, and CustomClock themes.
+
+Anemone also supports theming folder icons, applying masks, overlays and shadows to icons, changing interface colors across iOS, customizing icon labels, and applying custom blurs. Documentation for themers is available on the wiki.
+
+Anemone categorizes themes by packages and shows live previews of icons in a theme inline. Furthermore, before applying, Anemone shows a preview of the theme applied with your current wallpaper.
+
+By default on iOS 7 and higher, a dock mask is not enabled in Anemone. To get your dock back, enable "Default Dock" in Anemone.
