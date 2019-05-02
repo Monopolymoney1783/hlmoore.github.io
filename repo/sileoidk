@@ -1,0 +1,124 @@
+{
+  "minVersion": "0.3",
+  "class": "DepictionTabView",
+  "tintColor": "#12df09",
+  "headerImage": "https://repo.nepeta.me/assets/sileo_fallback.png",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "tintColor": "#5d288a",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "title": "Description"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<p>idk just testing sileo.</p>",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "title": "Screenshots"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Author",
+          "text": "Me "
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "free!"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionStackView",
+          "views": [
+            {
+              "class": "DepictionTableButtonView",
+              "title": "Join the Discord server!",
+              "action": "https://discord.gg/ZZXYD5g",
+              "openExternal": true
+            },
+            {
+              "class": "DepictionTableButtonView",
+              "title": "Follow @NepetaDev on Twitter.",
+              "action": "https://twitter.com/NepetaDev",
+              "openExternal": true
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "tintColor": "#5d288a",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "title": "1.4-1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<ul>\n<li>Updates preferences</li>\n<li>New icon!</li>\n</ul>",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "title": "1.4"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<p>ye</p>",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "title": "1.3"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<ul>\n<li>testing shit</li>\n<li>sileo is shit lol</li>\n</ul>",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}
