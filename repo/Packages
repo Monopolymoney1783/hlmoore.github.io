@@ -1,14 +1,15 @@
 Package: com.machport.powerspring
-Version: 1.0
+Version: 0.0.1-8+debug
+Section: Tweaks
+Maintainer: mach_port
+Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./deb-files/powerspring.deb
-Size: 16725838
+Size: 1538
+Installed-Size: 72
 MD5sum: e1b24104c4cf6e27b1a60e447bd32d30
-SHA1: 33821afec4c85d915be18e2f4f15d0d0efdac8e2
-SHA256: 00f4e420080c54389035e529e826f7c363793302a5307b3088cacf578e06f4f9
 SileoDepiction: https://hlmoore.github.io/repo/sileopower
-Section: Tweaks
-Description: Resprings Device Instead Of Showing PowerDown Menu. No Way Around It
-Author: machport
-Name: Powerspring
+Description: Instead Of Showing The Power Down Menu The Device Respring's
+Name: PowerSpring
+Author: mach_port
 
