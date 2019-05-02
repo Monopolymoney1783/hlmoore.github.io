@@ -27,21 +27,12 @@
           "class": "DepictionSubheaderView",
           "useBoldText": true,
           "useBottomMargin": false,
-          "title": "Screenshots"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "useBoldText": true,
-          "useBottomMargin": false,
           "title": "Information"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Author",
-          "text": "Me "
+          "text": "mach_port"
         },
         {
           "class": "DepictionTableTextView",
@@ -51,28 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Price",
-          "text": "free!"
-        },
-        {
-          "class": "DepictionSpacerView",
-          "spacing": 16
-        },
-        {
-          "class": "DepictionStackView",
-          "views": [
-            {
-              "class": "DepictionTableButtonView",
-              "title": "Join the Discord server!",
-              "action": "https://discord.gg/ZZXYD5g",
-              "openExternal": true
-            },
-            {
-              "class": "DepictionTableButtonView",
-              "title": "Follow @NepetaDev on Twitter.",
-              "action": "https://twitter.com/NepetaDev",
-              "openExternal": true
-            }
-          ]
+          "text": "There Is No Price lol"
         },
         {
           "class": "DepictionSpacerView",
