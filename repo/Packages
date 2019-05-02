@@ -1,14 +1,27 @@
+Package: com.mach.fluid
+Version: 0.0.1-4+debug
+Section: Tweaks
+Maintainer: Henry Moore
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: .//deb-files/fluid.deb
+Size: 4510
+Installed-Size: 56
+MD5sum: 122bf8d36b735036e7e7cb8bda653b17
+Description: An awesome MobileSubstrate tweak!
+Name: fluid
+Author: Henry Moore
+
 Package: com.machport.powerspring
 Version: 0.0.1-8+debug
 Section: Tweaks
 Maintainer: mach_port
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./deb-files/powerspring.deb
+Filename: .//deb-files/powerspring.deb
 Size: 1538
 Installed-Size: 72
 MD5sum: e1b24104c4cf6e27b1a60e447bd32d30
-SileoDepiction: https://hlmoore.github.io/repo/sileopower
 Description: Instead Of Showing The Power Down Menu The Device Respring's
 Name: PowerSpring
 Author: mach_port
