@@ -1,13 +1,13 @@
 Package: com.mach.fluid
-Version: 0.0.1-4+debug
+Version: 0.0.1-5+debug
 Section: Tweaks
 Maintainer: Henry Moore
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: .//deb-files/fluid.deb
-Size: 4510
-Installed-Size: 56
-MD5sum: 122bf8d36b735036e7e7cb8bda653b17
+Size: 5792
+Installed-Size: 68
+MD5sum: 8899924eff34ccaf36463d5173d1a859
 Description: An awesome MobileSubstrate tweak!
 Name: fluid
 Author: Henry Moore
