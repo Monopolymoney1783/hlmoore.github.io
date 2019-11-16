@@ -84,7 +84,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>Fixed Lockscreen Bug<\\/li><\\/ul>",
+                    "markdown": "<ul>\n<li>Fixed Lockscreen Bug</ul>",
                     "useRawFormat": true
                 }
             ]
