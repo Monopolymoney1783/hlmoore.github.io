@@ -2,7 +2,7 @@
     "minVersion": "0.1",
     "class": "DepictionTabView",
     "tintColor": "#3cbda1",
-    "headerImage": "",
+    "headerImage": "https://hlmoore.github.io/repo/depictions/x13/assets/headersileo.jpg",
     "tabs": [
         {
             "tabname": "Details",
