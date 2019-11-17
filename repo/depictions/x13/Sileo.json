@@ -7,7 +7,7 @@
         {
             "tabname": "Details",
             "class": "DepictionStackView",
-            "tintColor": "#2cb1be",
+            "tintColor": "#3cbda1",
             "views": [
                 {
                     "class": "DepictionSubheaderView",
