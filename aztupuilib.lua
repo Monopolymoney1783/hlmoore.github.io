@@ -153,7 +153,8 @@ local uiParent = game:GetService("RunService"):IsStudio() and game:GetService("P
         Window.BorderColor3 = Color3.new(0.337255, 0.337255, 0.337255)
         Window.Position = UDim2.new(0, 150 + (190 * self.WindowCount), 0, (Window.Size.Y.Offset / 2) + 50)
         Window.Size = UDim2.new(0, 180, 0, 0)
-        
+        Window.Active = true
+        Window.Draggable = true
         WindowName.Name = "WindowName"
         WindowName.Parent = Window
         WindowName.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
