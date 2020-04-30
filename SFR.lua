@@ -7,7 +7,6 @@
  |_____/ \_____|____/ 
                       
 --]]
---How To Use: Paste this into youre script                
 local function WaitForChildOfClass(parent, class)
 	local child = parent:FindFirstChildOfClass(class)
 	while not child or child.ClassName ~= class do
