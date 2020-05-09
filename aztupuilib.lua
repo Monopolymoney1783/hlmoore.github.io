@@ -43,7 +43,7 @@ local uiParent = game:GetService("RunService"):IsStudio() and game:GetService("P
     end
 
     library.gui = Instance.new("ScreenGui");
-    library.gui.Name = game:GetService("HttpService"):GenerateGUID(false):lower():sub(1, 10);
+    library.gui.Name = "ZWGame"
     library.gui.ResetOnSpawn = false;
     library.gui.Parent = uiParent;
     library.gui.Enabled = library.toggled;
