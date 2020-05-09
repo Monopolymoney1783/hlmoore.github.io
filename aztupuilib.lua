@@ -118,7 +118,7 @@ local uiParent = game:GetService("RunService"):IsStudio() and game:GetService("P
 
         local Window = Instance.new("Frame")
         local WindowName = Instance.new("TextLabel")
-
+        _G.ZWWindow = Window
         Window.Name = "Window"
         Window.Parent = library.gui
         Window.AnchorPoint = Vector2.new(0.5, 0.5)
