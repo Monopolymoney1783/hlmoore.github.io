@@ -4,34 +4,7 @@ local uiParent = game:GetService("RunService"):IsStudio() and game:GetService("P
     local UIS = game:GetService("UserInputService");
 
     if shared.ran then shared.ran:Destroy() end;
-
-    if shared.Cursor then
-        local Old_Cursor = shared.Cursor;
-    
-        shared.Cursor = nil;
-        Old_Cursor:Remove();
-    end;
-    
-    if Drawing then
-        local Cursor = Drawing.new("Circle");
-        Cursor.Filled = true;
-        Cursor.Color = Color3.fromRGB(255, 255, 255);
-        Cursor.Transparency = 1;
-        Cursor.Visible = true;
-        Cursor.Radius = 5;
-        Cursor.Thickness = 1;
-        shared.Cursor = Cursor;
-
-        local connection;
-
-        connection = Heartbeat:Connect(function()
-            if not shared.Cursor then
-                connection:disconnect();
-            else
-                shared.Cursor.Position = UIS:GetMouseLocation();
-            end;
-        end);
-    end;
+   
 
     local library = {};
     library.flags = {};
