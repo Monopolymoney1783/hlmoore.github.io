@@ -241,7 +241,7 @@ local bringve = main:Button("Bring All Vehicles", function()
         end
     end
 end)
-local hipHeightSlider = main:Slider('Hip Height', {min = 0, max = 20, default = 0}, function(value)
+local hipHeightSlider = main:Slider('Hip Height', {min = tonumber(game:GetService('Players').LocalPlayer.Character.Humanoid.HipHeight), max = 20, default = tonumber(game:GetService('Players').LocalPlayer.Character.Humanoid.HipHeight)}, function(value)
     game:GetService('Players').LocalPlayer.Character.Humanoid.HipHeight = value
 end)
 
