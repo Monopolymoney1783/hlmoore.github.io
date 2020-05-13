@@ -222,11 +222,27 @@ local toggleFly = main:Toggle('F to Airjump', function(state)
         fflyen = 0
     end
 end)
+local Taz = (function()
+    local ta = getconstants(require(game:GetService("ReplicatedStorage").Game.Item.Taser).Tase)
+    local taa = {}
+    for i,v in pairs(ta) do
+        if i > table.find(ta, "GetPlayerFromCharacter") and i < table.find(ta, "Name") and v~= "sub" and v ~= "reverse" then
+            table.insert(taa, v)
+        end
+    end
+    local tb = taa[1]:sub(1,1)
+    local tc = taa[table.maxn(taa)]:sub(#taa[table.maxn(taa)], #taa[table.maxn(taa)])
+    for i,v in pairs(AllHashes) do
+        if string.find(i, tb) and string.find(i, tc) then
+            return i
+        end
+    end
+end)()
 local tazeall = main:Toggle("Taze All",function(state)
     for i,object in pairs(game:GetService("Players"):GetPlayers()) do
         if object.Name ~= game:GetService("Players").LocalPlayer then
             if object.Character then
-                Remote:FireServer(Hashes['Taze'], object.Name, object.Character.HumanoidRootPart, object.Character.HumanoidRootPart.Position);
+                Remote:FireServer(Taz, object.Name, object.Character.HumanoidRootPart, object.Character.HumanoidRootPart.Position);
             end
         end
     end
