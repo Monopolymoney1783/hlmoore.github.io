@@ -222,6 +222,15 @@ local toggleFly = main:Toggle('F to Airjump', function(state)
         fflyen = 0
     end
 end)
+local tazeall = main:Toggle("Taze All",function(state)
+    for i,object in pairs(game:GetService("Players"):GetPlayers()) do
+        if object.Name ~= game:GetService("Players").LocalPlayer then
+            if object.Character then
+                Remote:FireServer(Hashes['Taze'], object.Name, object.Character.HumanoidRootPart, object.Character.HumanoidRootPart.Position);
+            end
+        end
+    end
+end)
 local volcano = main:Button("Erupt Volcano",function()
     firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart, workspace.LavaFun.Lavatouch, 0)
     wait()
@@ -241,8 +250,4 @@ local bringve = main:Button("Bring All Vehicles", function()
         end
     end
 end)
-local hipHeightSlider = main:Slider('Hip Height', {min = tonumber(game:GetService('Players').LocalPlayer.Character.Humanoid.HipHeight), max = 20, default = tonumber(game:GetService('Players').LocalPlayer.Character.Humanoid.HipHeight)}, function(value)
-    game:GetService('Players').LocalPlayer.Character.Humanoid.HipHeight = value
-end)
-
 
