@@ -222,6 +222,23 @@ local toggleFly = main:Toggle('F to Airjump', function(state)
         fflyen = 0
     end
 end)
+local gv
+for i, v in pairs(getreg()) do
+    if typeof(v) == "function" then
+        for i2, v2 in pairs(getupvalues(v)) do
+            if typeof(v2) == "table" and rawget(v2, "em") and rawget(v2, "Fireworks") then
+                em = v2.em
+                PlayFirework = v2.Fireworks
+                gv = v2.GetVehiclePacket
+                if(#getupvalues(v2.Event.FireServer) ~= 1) then
+                    game:GetService("Players").LocalPlayer:Kick("Nigga")
+                else
+                    Remote = v2.Event
+                end
+            end
+        end
+    end
+end
 local AllHashes = (function()
     for i,v in pairs(getgc(true)) do
         if type(v) == "table" then
