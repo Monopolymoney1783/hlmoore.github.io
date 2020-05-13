@@ -251,7 +251,7 @@ local Taz = (function()
 end)()
 local tazeall = main:Toggle("Taze All",function(state)
     for i,object in pairs(game:GetService("Players"):GetPlayers()) do
-        if object.Name ~= game:GetService("Players").LocalPlayer then
+        if object.Name ~= game:GetService("Players").LocalPlayer.Name then
             if object.Character then
                 Remote:FireServer(Taz, object.Name, object.Character.HumanoidRootPart, object.Character.HumanoidRootPart.Position);
             end
