@@ -234,6 +234,13 @@ local bringallunanchored = main:Button('Bring All Unanchored Parts', function()
         end
     end
 end)
+local bringve = main:Button("Bring All Vehicles", function()
+    for index, part in pairs(workspace.Vehicles:GetDescendants()) do
+        if part:IsA("Part") and part.Anchored == false and part:IsDescendantOf(game:GetService("Players").LocalPlayer.Character) == false then
+            part.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(math.random(10,50),50,math.random(10,50)))
+        end
+    end
+end)
 local hipHeightSlider = main:Slider('Hip Height', {min = 0, max = 20, default = 0}, function(value)
     game:GetService('Players').LocalPlayer.Character.Humanoid.HipHeight = value
 end)
