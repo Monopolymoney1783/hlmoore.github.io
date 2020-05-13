@@ -222,6 +222,17 @@ local toggleFly = main:Toggle('F to Airjump', function(state)
         fflyen = 0
     end
 end)
+local AllHashes = (function()
+    for i,v in pairs(getgc(true)) do
+        if type(v) == "table" then
+            for i2,v2 in pairs(v) do
+                if type(v2) == "string" and v2:sub(1,1) == "!" and v2:len() > 10 then
+                    return v
+                end
+            end
+        end
+    end
+end)()
 local Taz = (function()
     local ta = getconstants(require(game:GetService("ReplicatedStorage").Game.Item.Taser).Tase)
     local taa = {}
